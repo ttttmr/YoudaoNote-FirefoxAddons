@@ -1,0 +1,52 @@
+{
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "background": {
+    "scripts" : ["js/main.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "assets/logo_19x19.png",
+    "default_title": "保存到有道云笔记"
+  },
+
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Save to Youdao Note"
+    }
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://note.youdao.com/; unsafe-inline; object-src 'self'",
+
+  "default_locale": "zh_CN",
+
+  "description": "保存网页到有道云笔记（非官方！！！）",
+
+  "icons": {
+    "16": "assets/logo_16x16.png",
+    "48": "assets/logo_48x48.png",
+    "128": "assets/logo_128x128.png"
+  },
+
+  "manifest_version": 2,
+
+  "name": "保存网页到有道云笔记",
+
+  "permissions": [
+    "http://note.youdao.com/*",
+    "http://note.corp.youdao.com/*",
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "version": "1.0"
+}
