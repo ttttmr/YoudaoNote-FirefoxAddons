@@ -2,7 +2,11 @@
 
 ## 安装
 
-https://addons.mozilla.org/zh-CN/firefox/addon/%E4%BF%9D%E5%AD%98%E7%BD%91%E9%A1%B5%E5%88%B0%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/
+~~https://addons.mozilla.org/zh-CN/firefox/addon/%E4%BF%9D%E5%AD%98%E7%BD%91%E9%A1%B5%E5%88%B0%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/~~
+
+有道云笔记的脚本有问题无法上架商店，需要手动安装
+
+下载打包文件 [YoudaoNote-FirefoxAddons-1.1-an+fx.xpi](https://github.com/ttttmr/YoudaoNote-FirefoxAddons/releases/download/1.1/YoudaoNote-FirefoxAddons-1.1-an+fx.xpi)
 
 ## 说明
 
